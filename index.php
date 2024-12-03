@@ -52,7 +52,6 @@
         <?php
         $products = [
             ["title" => "Product A", "description" => "Description for product A", "quantity" => 10, "price" => 20.00],
-
             ["title" => "Product B", "description" => "Description for product B", "quantity" => 5, "price" => 50.00],
         ]
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
